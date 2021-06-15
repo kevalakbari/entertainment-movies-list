@@ -1,0 +1,58 @@
+body{
+    background-image: url("../img/black.jfif");
+    display: absolute;
+
+}
+.navbar {
+    background-color:#d29e8a!important;
+    font-weight: 600;
+}
+
+#carouselExampleControls{
+    /* height: 940px; */
+    width: 1377px;
+}
+.carousel-item img{
+    height: 540px;
+    width: 190px;
+}
+
+.card-group .card{
+    display: flex;
+    width: 264px;
+    margin: 25px 60px;
+    margin-bottom: 50px;
+    
+}
+h2{
+    color: white;
+    border-bottom:1px solid black;
+}
+.a1{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: black;
+}
+
+footer{
+    padding: 12px 0;
+    padding-left: 20px;
+    justify-content: center;
+    background-color: #e5b468!important;
+    height: 50px;
+    color:black;
+}
+
+.navbar-brand{
+    padding: 8px 8px;
+    color: black;
+    background-color:  rgb(167 156 1);
+    border-radius: 5px;
+}
+.card-body{
+    text-align: center;
+}
+
+.card img{
+    height: 200px;
+}

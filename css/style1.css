@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    background-image: url("../img/black.jfif");
+    display: absolute;
+}
+.navbar {
+    background-color:#d29e8a!important;
+    font-weight: 600;
+}
+
+
+.image1 img{
+    height: 541px;
+    width: 1400px;
+    margin-bottom: 0px;
+}
+
+.dro-ser{
+    display: flex;
+}
+
+.nav-item{
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 15px;
+    color: black;
+    background-color: yellow;
+    padding: 1px 19px;
+    margin: 15px 29px;
+}
+#navbarDropdownMenuLink{
+    color: black;
+}
+.search1 .btn{
+    color: black;
+    background-color: yellow;
+}
+
+.card-group{
+    margin: 20px 100px;
+}
+.card{
+    margin: 20px 20px;
+}
+.card img{
+    height: 200px;
+}
+
+footer{
+    padding: 12px 0;
+    padding-left: 20px;
+    justify-content: center;
+    background-color: #e5b468!important;
+    height: 50px;
+    color:black;
+}
+
+.navbar-brand{
+    padding: 8px 8px;
+    color: black;
+    background-color: rgb(167 156 1);
+    border-radius: 5px;
+}
