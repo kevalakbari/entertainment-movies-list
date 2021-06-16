@@ -52,24 +52,27 @@
         </div>
         <div class="search1">
             <form class="d-flex" style="margin: 20px 10px;">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input id="searchbar" onkeyup="search_animal()" type="text" name="search"
+                    placeholder="Search animals..">
+                <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
             </form>
         </div>
     </div>
+
     <div id="m">
-        <div id="m1" class="card-group">
+        <div id="m1" class="card-group" >
             <div class="card">
                 <img src="./img/a1.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Venom</h3>
+                    <h3 >Venom</h3>
                     <p> hollywood superhit film.</p>
                 </div>
             </div>
             <div class="card">
                 <img src="./img/a2.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Antman</h3>
+                    <h3 >Antman</h3>
                     <p>hollywood superhit film.</p>
                 </div>
             </div>
@@ -83,69 +86,73 @@
             <div class="card">
                 <img src="./img/a4.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Justice League</h3>
+                    <h3 >Justice League</h3>
                     <p>hollywood superhit film.</p>
                 </div>
             </div>
             <div class="card">
                 <img src="./img/a5.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Gost in the shell</h3>
+                    <h3 >Gost in the shell</h3>
                     <p>hollywood superhit film.</p>
                 </div>
             </div>
 
         </div>
+        <hr width="1400" size="5" style="color: yellow;">
         <div id="m1" class="card-group">
             <div class="card">
                 <img src="./img/b1.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h3>lagan</h3>
-                    <p> suoerhit indian film</p>
+                    <p> superhit indian film</p>
                 </div>
             </div>
             <div class="card">
                 <img src="./img/b2.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Gabbar</h3>
-                    <p> suoerhit indian film</p>
+                    <h3 >Gabbar</h3>
+                    <p> superhit indian film</p>
                 </div>
             </div>
             <div class="card">
                 <img src="./img/b3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h3>Raw khiladi</h3>
-                    <p> suoerhit indian film</p>
+                    <p> superhit indian film</p>
                 </div>
             </div>
             <div class="card">
                 <img src="./img/n2.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>double attack</h3>
-                    <p> suoerhit indian film</p>
+                    <h3 >double attack</h3>
+                    <p> superhit indian film</p>
                 </div>
             </div>
             <div class="card">
                 <img src="./img/b11.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h3>war</h3>
-                    <p> suoerhit indian film</p>
+                    <p> superhit indian film</p>
                 </div>
             </div>
 
         </div>
+        <hr width="1400" size="5" style="color: yellow;">
         <div id="m2" class="card-group">
             <div class="card">
-                <img src="./img/b13_files/AAAABfhAYm5VCnIQjBHMTzgiF4poWcv68Z7nhhb-iAqjTTGti18RNeiF21jkYaOtbfa2pGKYD3e59aCkQytFXSMyIBrOJWJD.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files/AAAABfhAYm5VCnIQjBHMTzgiF4poWcv68Z7nhhb-iAqjTTGti18RNeiF21jkYaOtbfa2pGKYD3e59aCkQytFXSMyIBrOJWJD.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>jumanji-3</h3>
+                    <h3>Yeh javani hai diwani</h3>
                     <p>hollywood superhit film.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="./img/b13_files/AAAABRNBsieap8C8-ZUirhGccSn14fYBfwU4ZmAl7oYLq5yHRNMF7-g-3bpM3P42j67Xo6kZwg_hqg3yewYY5xt5fT9Cbvis.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files/AAAABRNBsieap8C8-ZUirhGccSn14fYBfwU4ZmAl7oYLq5yHRNMF7-g-3bpM3P42j67Xo6kZwg_hqg3yewYY5xt5fT9Cbvis.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Venom</h3>
+                    <h3>kal ho naho</h3>
                     <p> hollywood superhit film.</p>
                 </div>
             </div>
@@ -165,26 +172,30 @@
                 </div>
             </div>
             <div class="card">
-                <img src="./img/b13_files/AAAABXktC7UCcI8uQP-tFnVMu-R2og7q61CHWCGC0IuaI1SY9ZO2ZRihTIyLacmkAqYapjQEbmGveOZpVPOjtVTnDsrDaX2V.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files/AAAABXktC7UCcI8uQP-tFnVMu-R2og7q61CHWCGC0IuaI1SY9ZO2ZRihTIyLacmkAqYapjQEbmGveOZpVPOjtVTnDsrDaX2V.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Gost in the shell</h3>
+                    <h3>dil</h3>
                     <p>hollywood superhit film.</p>
                 </div>
             </div>
 
         </div>
+        <hr width="1400" size="5" style="color: yellow;">
         <div id="m2" class="card-group">
             <div class="card">
-                <img src="./img/b13_files/AAAABWk7vK8HJCHofx3ZtrW6DEjdgNsm9sZbY2jOzAyWXXtbpWw1cz4eNTTgp-9xJunA4ISU2ivlPgAhDKa3gKsrQlePE_GI.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files/AAAABWk7vK8HJCHofx3ZtrW6DEjdgNsm9sZbY2jOzAyWXXtbpWw1cz4eNTTgp-9xJunA4ISU2ivlPgAhDKa3gKsrQlePE_GI.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Raw khiladi</h3>
+                    <h3>chance pe dance</h3>
                     <p> suoerhit indian film</p>
                 </div>
             </div>
             <div class="card">
-                <img src="./img/b13_files/AAAABRNBsieap8C8-ZUirhGccSn14fYBfwU4ZmAl7oYLq5yHRNMF7-g-3bpM3P42j67Xo6kZwg_hqg3yewYY5xt5fT9Cbvis.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files/AAAABRNBsieap8C8-ZUirhGccSn14fYBfwU4ZmAl7oYLq5yHRNMF7-g-3bpM3P42j67Xo6kZwg_hqg3yewYY5xt5fT9Cbvis.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>lagan</h3>
+                    <h3>kal ho na ho</h3>
                     <p> suoerhit indian film</p>
                 </div>
             </div>
@@ -199,7 +210,7 @@
             <div class="card">
                 <img src="./img/n3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>double attack</h3>
+                    <h3>scam 1992</h3>
                     <p> suoerhit indian film</p>
                 </div>
             </div>
@@ -212,18 +223,21 @@
             </div>
 
         </div>
+        <hr width="1400" size="5" style="color: yellow;">
         <div id="m3" class="card-group">
             <div class="card">
-                <img src="./img/b13_files/AAAABWaKk18bOUlVBCFl-ygIfolP9cEC7bTggDj8KCve3TiKmEPuIB4agu7n25n7nqXcx0wHp0V7ppda3EKlNDnuQ1aawl5h.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files/AAAABWaKk18bOUlVBCFl-ygIfolP9cEC7bTggDj8KCve3TiKmEPuIB4agu7n25n7nqXcx0wHp0V7ppda3EKlNDnuQ1aawl5h.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Gost in the shell</h3>
+                    <h3>the joya factor</h3>
                     <p>hollywood superhit film.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="./img/b13_files/AAAABXktC7UCcI8uQP-tFnVMu-R2og7q61CHWCGC0IuaI1SY9ZO2ZRihTIyLacmkAqYapjQEbmGveOZpVPOjtVTnDsrDaX2V.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files/AAAABXktC7UCcI8uQP-tFnVMu-R2og7q61CHWCGC0IuaI1SY9ZO2ZRihTIyLacmkAqYapjQEbmGveOZpVPOjtVTnDsrDaX2V.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Venom</h3>
+                    <h3>dil</h3>
                     <p> hollywood superhit film.</p>
                 </div>
             </div>
@@ -235,9 +249,10 @@
                 </div>
             </div>
             <div class="card">
-                <img src="./img/b13_files//AAAABWaKk18bOUlVBCFl-ygIfolP9cEC7bTggDj8KCve3TiKmEPuIB4agu7n25n7nqXcx0wHp0V7ppda3EKlNDnuQ1aawl5h.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files//AAAABWaKk18bOUlVBCFl-ygIfolP9cEC7bTggDj8KCve3TiKmEPuIB4agu7n25n7nqXcx0wHp0V7ppda3EKlNDnuQ1aawl5h.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>jumanji-3</h3>
+                    <h3>the joya factor</h3>
                     <p>hollywood superhit film.</p>
                 </div>
             </div>
@@ -251,11 +266,13 @@
 
 
         </div>
+        <hr width="1400" size="5" style="color: yellow;">
         <div id="m3" class="card-group">
             <div class="card">
-                <img src="./img/b13_files/AAAABbxixcKd9_orF1zNClphN8saGG7EkUPFdTtXeWULVV3E70GfmE8sMLR7jw1RmJw-akVBb4jPp2XLwi2QMDf86iQLo468.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files/AAAABbxixcKd9_orF1zNClphN8saGG7EkUPFdTtXeWULVV3E70GfmE8sMLR7jw1RmJw-akVBb4jPp2XLwi2QMDf86iQLo468.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>war</h3>
+                    <h3>chup chup ke</h3>
                     <p> suoerhit indian film</p>
                 </div>
             </div>
@@ -267,23 +284,25 @@
                 </div>
             </div>
             <div class="card">
-                <img src="./img/b13_files/AAAABcAK73ECYUF8iT3JKpCBYNhfQfDQdaVjQ_FpV-YmfjbTxqJQIq4ZClTX3NX_8_rVevcD0WtVYwYHM4_d7hy3YlNevhkb.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files/AAAABcAK73ECYUF8iT3JKpCBYNhfQfDQdaVjQ_FpV-YmfjbTxqJQIq4ZClTX3NX_8_rVevcD0WtVYwYHM4_d7hy3YlNevhkb.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Gabbar</h3>
+                    <h3>dil chahta hai</h3>
                     <p> suoerhit indian film</p>
                 </div>
             </div>
             <div class="card">
-                <img src="./img/b13_files/AAAABeA6ZWZnuyNK__A1PrU0u_PmzhAsWJK4YLaaQBSl7GgzDusHUqoQzk3tUJ44kpu8y4Ea_OcspfTUwc8Xj3NlpU0bqW-_.jpg" class="card-img-top" alt="...">
+                <img src="./img/b13_files/AAAABeA6ZWZnuyNK__A1PrU0u_PmzhAsWJK4YLaaQBSl7GgzDusHUqoQzk3tUJ44kpu8y4Ea_OcspfTUwc8Xj3NlpU0bqW-_.jpg"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>Raw khiladi</h3>
+                    <h3>anthoni kaun hai?</h3>
                     <p> suoerhit indian film</p>
                 </div>
             </div>
             <div class="card">
                 <img src="./img/n3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h3>double attack</h3>
+                    <h3>scam 1992</h3>
                     <p> suoerhit indian film</p>
                 </div>
             </div>
@@ -299,6 +318,22 @@
         </div>
     </footer>
 
+    <script>
+        function search_animal() {
+            let input = document.getElementById('searchbar').value
+            input = input.toLowerCase();
+            let x = document.getElementsByClassName('card');
+
+            for (i = 0; i < x.length; i++) {
+                if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                    x[i].style.display = "none";
+                }
+                else {
+                    x[i].style.display = "";
+                }
+            }
+        }
+    </script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
